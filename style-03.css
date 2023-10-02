@@ -18,14 +18,19 @@
 /* Styles for the HTML Body element */
 
 body {
-  /* Add a background colour of #1d3557ff */
+  background-color: #1d3557ff;
 }
 
 
 /* Then move onto the header styles */
 
 header {
-  /* Set the text colour, margins and padding */
+  /*
+  color:; 
+  margin:;
+  padding:;
+  */
+  
 }
 
 header .site-title {
@@ -36,6 +41,7 @@ header .site-title {
 header nav {
   /* Experiment with margin until you find spacing
    * that you like
+  margin:;
   */
 }
 
