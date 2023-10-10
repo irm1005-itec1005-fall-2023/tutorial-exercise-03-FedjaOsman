@@ -25,24 +25,22 @@ body {
 /* Then move onto the header styles */
 
 header {
-  /*
-  color:; 
-  margin:;
-  padding:;
-  */
-  
+  color:#457b9dff; 
+  margin: 1rem;
+  padding: 2rem;
 }
 
 header .site-title {
-  /* Add some cool text styles to the site title */
+
   /* Experiment with the font-size, font-weight, text-transform, letter-spacing */
+  font-size:2rem;
+  font-weight: 800;
+  letter-spacing:4px;
+  text-transform: uppercase;
 }
 
 header nav {
-  /* Experiment with margin until you find spacing
-   * that you like
-  margin:;
-  */
+  margin:2rem;
 }
 
 header nav ul {
@@ -52,15 +50,21 @@ header nav ul {
    * the bullet points
    */
   /* You may also have tweak the margin and padding */
+  list-style: none;
+  margin: 0.5rem;
+  padding:0.5rem;
 }
 
 header a {
   /* Set the text colour and remove the underline */
   /* Make the links white (or any cool colour */
+  color:white;
+  text-decoration:none;
 }
 
 header a:hover {
   /* Add an underline to the links when you hover over them */
+  text-decoration: underline;
 }
 
 /* GENERAL SECTION STYLES */
@@ -79,6 +83,11 @@ header a:hover {
 main > section {
   /* Set the margins, padding and background colour */
   /* Set the border radius to give it rounded corners */
+  color:white;
+  margin:1rem;
+  padding: 0.5rem;
+  background-color: rgb(104, 153, 243);
+  border-radius: 3;
 }
 
 /* This fancy code removes the bottom margin from the last section */
@@ -93,18 +102,25 @@ main section.hero {
   /* Start by setting the padding */
   /* Set the background colour */
   /* Set the border radius to give it rounded corners */
+  padding:1rem;
+  background-color:rgb(104, 153, 243);
+  border-radius:7;
 }
 
 main section.hero h1 {
   /* Set the font size, margins and text colour */
   /* Experiment with letter-spacing to see what it does */
   /* Google how to align text in the center */
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 main section.hero .secondary-heading {
   /* Set the font size, margins and text colour */
   /* Experiment with letter-spacing to see what it does */
   /* Google how to align text in the center */
+  
 }
 
 main section.hero img {
@@ -124,6 +140,8 @@ main section.hero img {
 
 main section.menu {
   /* Set the padding, background colour and border radius */
+  padding: 1rem;
+  background-color: rgb(221, 100, 100);
 }
 
 main section.menu ul {
@@ -133,11 +151,17 @@ main section.menu ul {
    * the bullet points
    */
   /* You may also have tweak the margin and padding */
+  list-style: none;
 }
 
 main section.menu ul li {
   /* Set the padding, margin-top and border radius */
   /* Set the background colour */
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  background-color: burlywood;
+
 }
 
 /* Use psuedo classes nth-child(even)
@@ -146,9 +170,12 @@ main section.menu ul li {
  * hint: li:nth-child
  *
  * background-color: #a8dadcff;
+ 
  */
-
-
+ main section.menu ul li:nth-child(even){
+  color: red;
+  background-color: #f3dcb9;
+ }
 
 /* TESTIMONIAL SECTION STYLES */
 
@@ -157,6 +184,8 @@ main section.menu ul li {
 main section.testimonial {
   /* Set the padding and background colour #f1faeeff */
   /* Set the border radius */
+  padding: 1rem;
+  background-color: #f1faeeff;
 }
 
 /*
@@ -169,11 +198,18 @@ main section.testimonial {
     design a sweet heading h2
 
 */
+main section.testimonials h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+}
 
 main section.testimonials img {
   width: 100%;
   max-width: 100%;
   /* Put a border radius on just the top of the image */
+  border-top: 1rem solid  #f3dcb9;
+  border-radius: 1.3rem;
 }
 
 /*
@@ -191,6 +227,17 @@ main section.testimonials img {
   - Put a border radius on just the bottom of the blockquote
 
 */
+main section.testimonials blockquote{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: white;
+  color: red;
+  border-bottom: 1rem solid #f3dcb9;
+  border-radius: 1.2rem;
+}
+
 
 /* AND THAT'S IT! YOU ARE DONE. CONGRATULATIONS. POST YOUR LINK! */
 
